@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        rye: ['Rye', 'cursive'],
+        librabodoni:['Libre Bodoni']
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
